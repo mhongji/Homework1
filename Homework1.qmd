@@ -1,0 +1,48 @@
+---
+title: "Datascience"
+format: html
+editor: visual
+---
+
+## 1. Answer the questions:
+
+*What do you think being a data scientist is about*
+
+-   Provide data-driven solutions for research and business
+
+-   Utilize data to find answers and insights
+
+*What differences/similarities do you see between data scientists and statisticians?*
+
+-   Both rely on statistical thinking and data analysis
+
+-   Data scientists more focused on data management, build models and write code, it aims to create practical, data-driven solutions
+
+-   Statistician Focus more on theory and statistical algorithms
+
+*How do you view yourself in relation to these two areas?*
+
+-   I see myself as a data scientist, I enjoy applying my knowledge to provide data driven real-world solution to people
+
+## 2. Adding R code chunks
+
+Creating a density object from the dataset:
+
+```{r}
+y <- density(iris$Petal.Width)
+```
+
+*The class, type, and structure of the object y:*
+
+```{r}
+class(y)
+typeof(y)
+str(y)
+```
+
+Plot y:
+
+```{r}
+#| echo: false
+plot(y, main = "Density of Petal Width in Iris Dataset")
+```
