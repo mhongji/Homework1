@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "Homework1.html",
+    "href": "Homework1.html",
+    "title": "Datascience",
+    "section": "",
+    "text": "What do you think being a data scientist is about\n\nProvide data-driven solutions for research and business\nUtilize data to find answers and insights\n\nWhat differences/similarities do you see between data scientists and statisticians?\n\nBoth rely on statistical thinking and data analysis\nData scientists more focused on data management, build models and write code, it aims to create practical, data-driven solutions\nStatistician Focus more on theory and statistical algorithms\n\nHow do you view yourself in relation to these two areas?\n\nI see myself as a data scientist, I enjoy applying my knowledge to provide data driven real-world solution to people"
+  },
+  {
+    "objectID": "Homework1.html#answer-the-questions",
+    "href": "Homework1.html#answer-the-questions",
+    "title": "Datascience",
+    "section": "",
+    "text": "What do you think being a data scientist is about\n\nProvide data-driven solutions for research and business\nUtilize data to find answers and insights\n\nWhat differences/similarities do you see between data scientists and statisticians?\n\nBoth rely on statistical thinking and data analysis\nData scientists more focused on data management, build models and write code, it aims to create practical, data-driven solutions\nStatistician Focus more on theory and statistical algorithms\n\nHow do you view yourself in relation to these two areas?\n\nI see myself as a data scientist, I enjoy applying my knowledge to provide data driven real-world solution to people"
+  },
+  {
+    "objectID": "Homework1.html#adding-r-code-chunks",
+    "href": "Homework1.html#adding-r-code-chunks",
+    "title": "Datascience",
+    "section": "2. Adding R code chunks",
+    "text": "2. Adding R code chunks\nCreating a density object from the dataset:\n\ny &lt;- density(iris$Petal.Width)\n\nThe class, type, and structure of the object y:\n\nclass(y)\n\n[1] \"density\"\n\ntypeof(y)\n\n[1] \"list\"\n\nstr(y)\n\nList of 8\n $ x         : num [1:512] -0.656 -0.648 -0.64 -0.633 -0.625 ...\n $ y         : num [1:512] 0.00161 0.00178 0.00197 0.00217 0.00239 ...\n $ bw        : num 0.252\n $ n         : int 150\n $ old.coords: logi FALSE\n $ call      : language density.default(x = iris$Petal.Width)\n $ data.name : chr \"iris$Petal.Width\"\n $ has.na    : logi FALSE\n - attr(*, \"class\")= chr \"density\"\n\n\nPlot y:"
+  }
+]
